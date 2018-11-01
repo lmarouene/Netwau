@@ -13,7 +13,7 @@ for host in junos_hosts:
              with open (myfile, ‘r’) as fh:
                        data = yaml.load(fh.read())
              # Open and read the Jinja2 template file.
-             with open (‘case1.j2’, ‘r’) as t_fh:
+             with open (‘Confi_file_bgp.j2’, ‘r’) as t_fh:
                         t_format = t_fh.read()
 
    # Associate the t_format template with the Jinja2 module
