@@ -1,0 +1,13 @@
+---
+bgp:
+        interface: xe-0/0/0
+        unit_num: 0
+        address: 9.9.12.1
+        address_cidr: 24
+        as_num: 65012
+        peer_as: 65013
+        neighbor_ip: 9.9.12.2
+
+Loopback:
+        unit_num: 0
+        address: 9.9.0.1
