@@ -1,5 +1,4 @@
 # Python PyEz script to collect the installed FPC hardware and show FPC status
-__author__ = "Chris Booker"
 import sys
 from jnpr.junos import Device
 from jnpr.junos.op.fpc import FpcHwTable
